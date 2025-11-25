@@ -1,0 +1,45 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://usha-ananth.github.io/portfolio",
+  "dependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-redux": "^7.2.6",
+    "redux": "^4.0.1",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "babel-node -- node_modules/cucumber/bin/cucumber-js test/features --require test/step_definitions",
+    "test:watch": "babel-watch --watch src --watch test -- node_modules/cucumber/bin/cucumber-js test/features --require test/step_definitions",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-watch": "^7.0.0",
+    "cucumber": "^5.1.0",
+    "enzyme": "^3.8.0",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.0",
+    "gh-pages": "^6.1.1",
+    "jsdom": "^27.2.0",
+    "nock": "^10.0.6"
+  }
+}
