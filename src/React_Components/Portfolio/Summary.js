@@ -18,7 +18,7 @@ const Summary = () => {
         <section id="intro" className="wrapper style1 fullscreen fade-up">
             <div className="inner" style={{ textAlign: 'center' }}>
                 <span className="image fit" style={{ maxWidth: '200px', margin: '0 auto 2em auto' }}>
-                    <img src="images/profile.jpg" alt="Profile" style={{ borderRadius: '50%', border: '5px solid rgba(255, 255, 255, 0.15)' }} />
+                    <img src={`${process.env.PUBLIC_URL}/images/profile.jpg`} alt="Profile" style={{ borderRadius: '50%', border: '5px solid rgba(255, 255, 255, 0.15)' }} />
                 </span>
 
                 <h1>{data.header.name}</h1>

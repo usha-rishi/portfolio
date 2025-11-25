@@ -21,7 +21,7 @@ const Certifications = () => {
                             }}
                         >
                             <span className="image fit" style={{ maxWidth: '150px', margin: '0 auto 2em auto' }}>
-                                <img src={`/images/${cert.image}`} alt={cert.name} style={{ objectFit: 'contain', maxHeight: '150px' }} />
+                                <img src={`${process.env.PUBLIC_URL}/images/${cert.image}`} alt={cert.name} style={{ objectFit: 'contain', maxHeight: '150px' }} />
                             </span>
                             <h3>{cert.name}</h3>
                             <p>

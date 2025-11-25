@@ -5,8 +5,8 @@ export const resumeData = {
         phone: "437-833-1349",
         email: "ananth.usha05@gmail.com",
         social: {
-            github: "https://github.com/usha-ananth",
-            linkedin: "https://www.linkedin.com/in/usha-anantharamu/"
+            github: "https://github.com/usha-rishi/portfolio",
+            linkedin: "https://www.linkedin.com/in/usha-anantharamu-csm-98a53859/"
         }
     },
     summary: ["Hi, I’m Usha — a software engineering and integration specialist with more than 10 years of experience building enterprise-scale solutions across the .NET and Azure ecosystem. My career has been shaped by a deep curiosity for how systems work behind the scenes and a passion for creating clean, reliable, and scalable technology that makes a real difference for users and businesses.\n\n",
